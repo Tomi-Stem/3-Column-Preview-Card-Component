@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.vehicle_div1, .vehicle_div2, .vehicle_div3{
+    width: 280px;
+    padding: 50px 45px 40px 40px ;
+}
+    
+.vehicle_div1{   
+    background-color: hsl(31, 77%, 52%);
+}
+
+.vehicle_div2{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.vehicle_div3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 75px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 95%, 0.7);
+}
+
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+}
+
+img{
+    margin-bottom: 30px;
+}
+
+.button1, .button2, .button3{
+    padding: 10px 25px;
+    border-radius: 35px;
+    background-color: hsl(0, 0%, 95%);
+    transition: .2s ease-out;
+    border: 2px solid hsl(0, 0%, 95%);
+    outline: none;
+    cursor: pointer;
+}
+
+.button1{  
+    color: hsl(31, 77%, 52%);
+}
+
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+
+.button3{
+    color: hsl(179, 100%, 13%);
+}
+
+.button1:hover, .button2:hover, .button3:hover{
+    color: hsl(0, 0%, 100%);
+    background: transparent;
+}
+
+
+/*MOBILE DESIGN FOR MAX-WIDTH: 375PX*/
+@media screen and (max-width: 375px) {
+    body {
+        align-items: flex-start;
+    }
+
+    .container{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .vehicle_div1, .vehicle_div2, .vehicle_div3{
+        width: 310px;
+        padding: 50px 60px 40px 40px;
+    }
+
+    .button1, .button2, .button3{
+        padding: 13px 30px;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
+
+
+}
