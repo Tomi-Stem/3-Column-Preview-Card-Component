@@ -87,19 +87,19 @@ img{
 
 
 /*MOBILE DESIGN FOR MAX-WIDTH: 375PX*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     body {
         align-items: flex-start;
     }
 
     .container{
         flex-direction: column;
-        margin-top: 25px;
+        margin: 60px 0px 80px 0%;
     }
 
     .vehicle_div1, .vehicle_div2, .vehicle_div3{
         width: 310px;
-        padding: 50px 60px 40px 40px;
+        padding: 50px 30px 40px 40px;
     }
 
     .button1, .button2, .button3{
