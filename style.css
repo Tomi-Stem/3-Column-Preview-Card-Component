@@ -88,13 +88,19 @@ img{
 
 /*MOBILE DESIGN FOR MAX-WIDTH: 425PX*/
 @media screen and (max-width: 425px) {
+
+    html {
+        height: auto;
+    }
+
     body {
+        height: auto;
         align-items: flex-start;
     }
 
     .container{
         flex-direction: column;
-        margin: 60px 0px 80px 0%;
+        margin: 60px 0px 60px 0%;
     }
 
     .vehicle_div1, .vehicle_div2, .vehicle_div3{
