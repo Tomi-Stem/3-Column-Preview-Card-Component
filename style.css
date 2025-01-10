@@ -86,8 +86,8 @@ img{
 }
 
 
-/*MOBILE DESIGN FOR MAX-WIDTH: 375PX*/
-@media screen and (max-width: 435px) {
+/*MOBILE DESIGN FOR MAX-WIDTH: 425PX*/
+@media screen and (max-width: 425px) {
     body {
         align-items: flex-start;
     }
